@@ -1,11 +1,11 @@
-// //Named export
-// import { Employee, demo } from "./export.js";
+//Named export
+import { Employee, demo } from "./export.js";
 
-// Employee("sakthi");
+Employee("sakthi");
 
-// let p = new demo(24);
+let p = new demo(24);
 
-// p.display();
+p.display();
 
 //default export
 
@@ -14,6 +14,6 @@ import demo from "./export.js";
 
 Employee1("sadeesh");
 
-let p = new demo(23);
+let p1 = new demo(23);
 
-p.display();
+p1.display();
