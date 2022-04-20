@@ -9,11 +9,11 @@
 
 //default export
 
-// import { Employee1 as e } from "./export.js";
-import { demo as d } from "./export.js";
-// Employee1("sadeesh");
-// e("sakthi");
+import Employee1 from "./export.js";
+import demo from "./export.js";
 
-let p = new d(23);
+Employee1("sadeesh");
+
+let p = new demo(23);
 
 p.display();
