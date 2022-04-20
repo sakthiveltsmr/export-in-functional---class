@@ -1,3 +1,4 @@
+//named export
 import { Employee, demo } from "./export.js";
 
 Employee("sakthi");
